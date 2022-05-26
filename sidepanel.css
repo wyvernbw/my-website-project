@@ -1,0 +1,43 @@
+aside {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+}
+
+aside figure {
+    width: 100%;
+    text-align: center;
+    margin: 2em auto 2em auto;
+}
+
+aside figure img {
+    max-height: 4em;
+}
+
+aside figure figcaption {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 32;
+}
+
+aside div {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 3em 0 3em 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    font-size: 24;
+    color:  black;
+}
