@@ -25,19 +25,29 @@ aside figure figcaption {
 }
 
 aside div {
+    justify-content: start;
     background-color: rgba(255, 255, 255, 0.4);
 }
 
 aside ul {
-    list-style-type: none;
-}
-
-aside ul li {
-    margin: 3em 0 3em 0;
+    list-style: none;
+    gap: 3rem;
+    padding: 0;
+    margin: 0;
 }
 
 aside ul li a {
+    display: flex;
+    width: 100%;
+    text-indent: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
     text-decoration: none;
+    color: black;
     font-size: 24;
-    color:  black;
+}
+
+aside ul li a:hover {
+    background-color: white;
 }
